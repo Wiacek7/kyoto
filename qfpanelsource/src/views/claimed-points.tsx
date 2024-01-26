@@ -227,7 +227,7 @@ const TableData = () => (
                   Claimed on 14/APR/2024
                 </h3>
               </td>
-              
+  
             </tr>
             <tr>
               <td className="whitespace-nowrap py-4 flex items-center gap-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
@@ -337,10 +337,7 @@ const TableData = () => (
                   Claimed on 14/APR/2024
                 </h3>
               </td>
-              <td className="whitespace-nowrap px-3 py-4 text-sm text-white/80">
-                <h3>67.000</h3>
-                <h3>POINTS</h3>
-              </td>
+            
             </tr>
             <tr>
               <td className="whitespace-nowrap py-4 flex items-center gap-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
@@ -450,10 +447,7 @@ const TableData = () => (
                   Claimed on 14/APR/2024
                 </h3>
               </td>
-              <td className="whitespace-nowrap px-3 py-4 text-sm text-white/80">
-                <h3>67.000</h3>
-                <h3>POINTS</h3>
-              </td>
+
             </tr>
             <tr>
               <td className="whitespace-nowrap py-4 flex items-center gap-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
@@ -563,10 +557,7 @@ const TableData = () => (
                   Claimed on 14/APR/2024
                 </h3>
               </td>
-              <td className="whitespace-nowrap px-3 py-4 text-sm text-white/80">
-                <h3>67.000</h3>
-                <h3>POINTS</h3>
-              </td>
+   
             </tr>
           </tbody>
         </table>
