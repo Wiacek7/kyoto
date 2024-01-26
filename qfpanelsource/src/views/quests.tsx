@@ -130,7 +130,21 @@ const Quests = () => {
             </Transition>
           </Menu>
 
-          
+          <div className="relative rounded-md w-full sm:w-auto shadow-sm">
+            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-2">
+              <MagnifyingGlassIcon className="text-[#83899F] w-5 h-5" />
+            </div>
+            <input
+              type="text"
+              name="price"
+              id="price"
+              className="block w-full border-0  py-1.5 pl-8 pr-12 text-gray-900 focus:ring-0 rounded-xl placeholder:text-[#83899F]  sm:text-sm sm:leading-6"
+              placeholder="Search rounds."
+            />
+            <span className="absolute inset-y-0 right-4 flex items-center text-slate-700">
+              
+            </span>
+          </div>
         
           
 <form className="max-w-md mx-auto">
