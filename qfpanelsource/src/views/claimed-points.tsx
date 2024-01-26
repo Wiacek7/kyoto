@@ -4,8 +4,7 @@ import { FunnelIcon } from "@heroicons/react/20/solid";
 
 const tabs = [
   { name: "All", href: "#", current: true },
-  { name: "Claimed", href: "#", current: false },
-  { name: "UnClaimed", href: "#", current: false },
+
 ];
 
 const ClaimedPoints = () => {
@@ -37,13 +36,8 @@ const ClaimedPoints = () => {
           </nav>
         </div>
         <h3 className="hidden sm:block text-md">
-          Total Claimed Points:{" "}
-          <span className="text-[##00a4ff] font-semibold">$900.00</span> USDT{" "}
-        </h3>
-        <h3 className="sm:hidden  text-sm">
-          Points Claimed:{" "}
-          <span className="text-[##00a4ff] font-semibold">$900.00</span> USDT{" "}
-        </h3>
+          Total Projects:{" "}
+          <span className="text-[##00a4ff] font-semibold">2,000</span></h3>
       </div>
       <div className="flex items-center gap-2">
         <button
@@ -221,11 +215,8 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  Claimed
+                  Polygon
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Claimed on 14/APR/2024
-                </h3>
               </td>
   
             </tr>
@@ -331,11 +322,8 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  Claimed
+                  Optimism
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Claimed on 14/APR/2024
-                </h3>
               </td>
             
             </tr>
@@ -441,11 +429,8 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  Claimed
+                  Ethereum
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Claimed on 14/APR/2024
-                </h3>
               </td>
 
             </tr>
@@ -551,11 +536,8 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  Claimed
+                  Arbitrum
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Claimed on 14/APR/2024
-                </h3>
               </td>
    
             </tr>
