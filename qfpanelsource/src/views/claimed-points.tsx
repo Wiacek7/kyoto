@@ -59,7 +59,7 @@ const ClaimedPoints = () => {
             name="price"
             id="price"
             className="block w-full border border-white/15 py-1.5 pl-8 pr-2 bg-transparent text-white/80 focus:ring-0 focus:outline-none rounded-md placeholder:text-[#83899F]  sm:text-sm sm:leading-6"
-            placeholder="Search address, points ..."
+            placeholder="Search projects, address..."
           />
         </div>
       </div>
@@ -157,7 +157,7 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  ACTIVE
+                  Round 1
                 </span>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
@@ -261,7 +261,7 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  ACTIVE
+                  Round 1
                 </span>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
@@ -365,7 +365,7 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  ACTIVE
+                  Round 1
                 </span>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
@@ -469,7 +469,7 @@ const TableData = () => (
                   >
                     <circle cx={3} cy={3} r={3} />
                   </svg>
-                  ACTIVE
+                  Round 1
                 </span>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
