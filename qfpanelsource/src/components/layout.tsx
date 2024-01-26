@@ -230,7 +230,6 @@ export default Layout;
 
 const Logo = () => (
   <div className="flex mx-4  h-16 gap-4 bg-[#21262D] rounded-2xl px-4 py-1.5 border border-[#313843] shrink-0 items-center">
-    <Icon />
     <h1 className="text-white font-bold text-3xl">QF Panel</h1>
   </div>
 );
