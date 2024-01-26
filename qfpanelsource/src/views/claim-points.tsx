@@ -42,9 +42,9 @@ const ClaimPoints = () => {
       <CongratsPopup open={open} setOpen={setOpen} />
       <div className="space-y-6">
         <div>
-          <h1 className="opacity-50">Claim your mined Points</h1>
+          <h1 className="opacity-50">Release QF matching pool payments.</h1>
           <p className="opacity-35 text-sm">
-            Fund a project to Claim $POINTS daily.
+            
           </p>
         </div>
         <div className="flex items-center justify-center gap-2 ">
@@ -60,17 +60,17 @@ const ClaimPoints = () => {
             />
           </svg>
           <h1 className="font-semibold flex-1 sm:flex-none text-md sm:text-xl">
-            Congratulations, you have $POINTS available for claiming.
+            Release QF Matching payment to all projects
           </h1>
         </div>
         <div className="flex items-center flex-col overflow-wrap xl:flex-row gap-4 sm:gap-8">
           <div className="flex flex-1 items-center gap-4 md:gap-8 flex-col sm:flex-row w-full">
             <div className="w-full min-w-fit 2xl:min-w-96 space-y-4">
               <div className="rounded-3xl  border border-white/15 p-5 pb-20 space-y-4">
-                <h3 className="text-white text-lg">Total Rewards</h3>
+                <h3 className="text-white text-lg">Total Projects | 120 </h3>
                 <div className="space-y-0.5">
                   <h1 className="text-white font-bold text-2xl">
-                    POINTS 3,325
+                    USDT $3,325
                   </h1>
                   <div className="flex items-center gap-1.5">
                     <div className="w-8 h-8 flex justify-center items-center rounded-full bg-[#34C759]/20">
@@ -97,9 +97,9 @@ const ClaimPoints = () => {
                         />
                       </svg>
                     </div>
-                    <p className="text-[#34C759] text-sm">+15.28%</p>
+                    <p className="text-[#34C759] text-sm">$40,000</p>
                     <p className="text-[#8E8E93] text-xs">|</p>
-                    <p className="text-[#8E8E93] text-xs">last 30 days</p>
+                    <p className="text-[#8E8E93] text-xs">Total Contributions</p>
                   </div>
                 </div>
               </div>
