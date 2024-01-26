@@ -102,19 +102,19 @@ const TableData = () => (
                 scope="col"
                 className="px-3 py-3.5 text-left text-sm font-semibold text-white"
               >
-                ROUND
+                QF ROUND
               </th>
               <th
                 scope="col"
                 className="px-3 py-3.5 text-left text-sm font-semibold text-white"
               >
-                PROJECT STATUS
+                ADD/REMOVE
               </th>
               <th
                 scope="col"
                 className="px-3 py-3.5 text-left text-sm font-semibold text-white"
               >
-                AMOUNT
+                CHAIN
               </th>
             </tr>
           </thead>
@@ -150,8 +150,8 @@ const TableData = () => (
                   </svg>
                 </div>
                 <div>
-                  <h1 className="text-white">0xXDGET46RG37FD....</h1>
-                  <h4 className="text-cyan-500">@degen_rebel</h4>
+                  <h1 className="text-white">DEFI GAME</h1>
+                  <h4 className="text-cyan-500">0XGRTR42D36H...</h4>
                 </div>
               </td>
               <td className="whitespace-nowrap px-3 py-4 space-y-1">
@@ -227,10 +227,7 @@ const TableData = () => (
                   Claimed on 14/APR/2024
                 </h3>
               </td>
-              <td className="whitespace-nowrap px-3 py-4 text-sm text-white/80">
-                <h3>67.000</h3>
-                <h3>POINTS</h3>
-              </td>
+              
             </tr>
             <tr>
               <td className="whitespace-nowrap py-4 flex items-center gap-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
