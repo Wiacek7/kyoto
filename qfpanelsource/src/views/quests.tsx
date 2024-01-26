@@ -9,9 +9,9 @@ const Quests = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="opacity-50">Projects</h1>
+        <h1 className="opacity-50">Rounds</h1>
         <p className="opacity-35 text-sm">
-          Admin can find projects here to add to QF Rounds.
+          Admin can start a new QF Round here
         </p>
       </div>
       <div className="space-y-4">
@@ -97,7 +97,7 @@ const Quests = () => {
               name="price"
               id="price"
               className="block w-full border-0  py-1.5 pl-8 pr-12 text-gray-900 focus:ring-0 rounded-xl placeholder:text-[#83899F]  sm:text-sm sm:leading-6"
-              placeholder="Search Quests...."
+              placeholder="Search rounds."
             />
             <span className="absolute inset-y-0 right-4 flex items-center text-slate-700">
               ⌘F
@@ -113,7 +113,7 @@ const Quests = () => {
           <div className="flex items-center justify-center">
             <button
               type="button"
-              className="rounded-md bg-[##00a4ff] px-10 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-[##00a4ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[##00a4ff]"
+              className="rounded-md bg-[#00a4ff] px-10 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-[#00a4ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a4ff]"
             >
               Explore More
             </button>
@@ -201,7 +201,7 @@ const Card = () => {
         </div>
         <button
           type="button"
-          className="rounded-full px-4 bg-[##00a4ff] py-1 text-sm font-semibold text-white shadow-sm hover:bg-[##00a4ff]/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[##00a4ff]"
+          className="rounded-full px-4 bg-[#00a4ff] py-1 text-sm font-semibold text-white shadow-sm hover:bg-[#00a4ff]/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a4ff]"
         >
           CLAIM
         </button>
