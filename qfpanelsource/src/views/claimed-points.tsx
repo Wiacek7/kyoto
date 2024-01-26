@@ -12,9 +12,9 @@ const ClaimedPoints = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="opacity-50">Quests</h1>
+        <h1 className="opacity-50">Add projects to QF Round</h1>
         <p className="opacity-35 text-sm">
-          Search your favourite category , follow the interesting quests
+          Search for a porject and add it to QF Round.
         </p>
       </div>
       <div className="flex sm:items-center flex-col-reverse sm:flex-row   sm:border-b border-white/70">
@@ -96,25 +96,19 @@ const TableData = () => (
                 scope="col"
                 className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-white sm:pl-0"
               >
-                USER
+                PROJECT
               </th>
               <th
                 scope="col"
                 className="px-3 py-3.5 text-left text-sm font-semibold text-white"
               >
-                USER STATUS
+                ROUND
               </th>
               <th
                 scope="col"
                 className="px-3 py-3.5 text-left text-sm font-semibold text-white"
               >
-                QUEST
-              </th>
-              <th
-                scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-white"
-              >
-                CLAIM STATUS
+                PROJECT STATUS
               </th>
               <th
                 scope="col"

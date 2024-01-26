@@ -231,7 +231,7 @@ export default Layout;
 const Logo = () => (
   <div className="flex mx-4  h-16 gap-4 bg-[#21262D] rounded-2xl px-4 py-1.5 border border-[#313843] shrink-0 items-center">
     <Icon />
-    <h1 className="text-white font-bold text-3xl">PointsHive</h1>
+    <h1 className="text-white font-bold text-3xl">QF Panel</h1>
   </div>
 );
 
@@ -279,7 +279,7 @@ const Nav = () => (
       </li>
       <li className="px-6 border-t border-white/15 py-5">
         <div className="text-xs font-semibold leading-6 text-[#83899F]">
-          Follow us
+         
         </div>
         <ul className="-mx-2 mt-2 space-y-1">
           {socialLinks.map((team) => (
