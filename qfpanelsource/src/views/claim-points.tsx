@@ -104,13 +104,7 @@ const ClaimPoints = () => {
                 </div>
               </div>
               <div className="w-full px-4">
-                <button
-                  onClick={() => setOpen(true)}
-                  type="button"
-                  className="rounded-xl bg-[#FFA409] w-full px-10 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FFA409] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFA409]"
-                >
-                  Claim POINTS
-                </button>
+                
               </div>
             </div>
             <div className="w-full min-w-fit 2xl:min-w-96 space-y-4">
