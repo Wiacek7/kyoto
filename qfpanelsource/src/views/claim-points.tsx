@@ -115,9 +115,9 @@ const ClaimPoints = () => {
             </div>
             <div className="w-full min-w-fit 2xl:min-w-96 space-y-4">
               <div className="rounded-3xl   border border-white/15 p-5 pb-20 space-y-4">
-                <h3 className="text-white text-lg">Balance</h3>
+                <h3 className="text-white text-lg">Matching Pool Balance</h3>
                 <div className="space-y-0.5">
-                  <h1 className="text-white font-bold text-2xl">$------</h1>
+                  <h1 className="text-white font-bold text-2xl">$50,000</h1>
                   <div className="flex items-center gap-1.5">
                     <div className="w-8 h-8 flex justify-center items-center rounded-full bg-[#34C759]/20">
                       <svg
@@ -142,36 +142,29 @@ const ClaimPoints = () => {
                           d="m10.833 9.167 6.833-6.834M18.334 5.692V1.667h-4.025"
                         />
                       </svg>
-                    </div>
-                    <p className="text-[#34C759] text-sm">+15.28%</p>
+                      </div>
+                    <p className="text-[#34C759] text-sm">$40,000</p>
                     <p className="text-[#8E8E93] text-xs">|</p>
-                    <p className="text-[#8E8E93] text-xs">last 30 days</p>
+                    <p className="text-[#8E8E93] text-xs">Total Matched</p>
                   </div>
                 </div>
               </div>
 
               <div className="w-full px-4">
-                <button
+              <button
+                  onClick={() => setOpen(true)}
                   type="button"
-                  className="rounded-xl bg-white/50 w-full px-10 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/50"
+                  className="rounded-xl bg-[#FFA409] w-full px-10 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FFA409] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFA409]"
                 >
-                  Widthdraw
+                  Disburse Payment
                 </button>
               </div>
             </div>
           </div>
           <div className="w-72 h-72 sm:w-96 sm:h-96 relative">
             <div className="bg-white flex items-center justify-center w-36 h-36 sm:w-48 sm:h-48 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  rounded-full shadow">
-              <div className="text-center">
-                <h1 className="text-[#FFA409] font-semibold text-2xl">73.5%</h1>
-                <p className="text-gray-500">Conversion</p>
-              </div>
+              
             </div>
-            <Doughnut
-              data={data}
-              options={options}
-              plugins={[sliceThickness]}
-            />
           </div>
         </div>
       </div>
