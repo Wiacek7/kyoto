@@ -159,9 +159,6 @@ const TableData = () => (
                   </svg>
                   ACTIVE
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Last Active: 14/APR/2024
-                </h3>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
                 <svg
@@ -266,9 +263,6 @@ const TableData = () => (
                   </svg>
                   ACTIVE
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Last Active: 14/APR/2024
-                </h3>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
                 <svg
@@ -373,9 +367,6 @@ const TableData = () => (
                   </svg>
                   ACTIVE
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Last Active: 14/APR/2024
-                </h3>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
                 <svg
@@ -480,9 +471,6 @@ const TableData = () => (
                   </svg>
                   ACTIVE
                 </span>
-                <h3 className="text-white/80 text-xs">
-                  Last Active: 14/APR/2024
-                </h3>
               </td>
               <td className="whitespace-nowrap px-3 py-4 flex items-center text-sm gap-2 text-white/80">
                 <svg
