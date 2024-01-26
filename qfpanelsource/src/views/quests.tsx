@@ -22,7 +22,7 @@ const Quests = () => {
           >
             <div>
               <Menu.Button className="inline-flex w-full justify-between gap-x-1.5 rounded-md bg-transparent  px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-slate-900">
-                All Categories
+                All chains
                 <ChevronDownIcon
                   className="-mr-1 h-5 w-5 text-white"
                   aria-hidden="true"
@@ -51,7 +51,7 @@ const Quests = () => {
                           "block px-4 py-2 text-sm"
                         )}
                       >
-                        Category 1
+                        Optimism
                       </p>
                     )}
                   </Menu.Item>
@@ -65,7 +65,7 @@ const Quests = () => {
                           "block px-4 py-2 text-sm"
                         )}
                       >
-                        Category 2
+                        Arbitrum
                       </p>
                     )}
                   </Menu.Item>
@@ -79,7 +79,49 @@ const Quests = () => {
                           "block px-4 py-2 text-sm"
                         )}
                       >
-                        Category 3
+                        Polygon
+                      </p>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <p
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Binance
+                      </p>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <p
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Ethereum
+                      </p>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <p
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Polygon
                       </p>
                     )}
                   </Menu.Item>
@@ -88,21 +130,7 @@ const Quests = () => {
             </Transition>
           </Menu>
 
-          <div className="relative rounded-md w-full sm:w-auto shadow-sm">
-            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-2">
-              <MagnifyingGlassIcon className="text-[#83899F] w-5 h-5" />
-            </div>
-            <input
-              type="text"
-              name="price"
-              id="price"
-              className="block w-full border-0  py-1.5 pl-8 pr-12 text-gray-900 focus:ring-0 rounded-xl placeholder:text-[#83899F]  sm:text-sm sm:leading-6"
-              placeholder="Search rounds."
-            />
-            <span className="absolute inset-y-0 right-4 flex items-center text-slate-700">
-              
-            </span>
-          </div>
+          
         
           
 <form className="max-w-md mx-auto">
