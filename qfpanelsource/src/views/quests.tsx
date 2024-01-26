@@ -101,7 +101,24 @@ const Quests = () => {
             />
             <span className="absolute inset-y-0 right-4 flex items-center text-slate-700">
               
-
+            </span>
+          </div>
+        </div>
+        <div className="space-y-4">
+          <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-x-3 gap-y-2">
+            {Array.from({ length: 12 }).map((_, index) => (
+              <Card key={index} />
+            ))}
+          </div>
+          <div className="flex items-center justify-center">
+            <button
+              type="button"
+              className="rounded-md bg-[#00a4ff] px-10 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-[#00a4ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a4ff]"
+            >
+              Explore More
+            </button>
+          </div>
+          
 <form className="max-w-md mx-auto">
   <div className="relative z-0 w-full mb-5 group">
       <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
@@ -138,23 +155,6 @@ const Quests = () => {
   <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 </form>
 
-            </span>
-          </div>
-        </div>
-        <div className="space-y-4">
-          <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-x-3 gap-y-2">
-            {Array.from({ length: 12 }).map((_, index) => (
-              <Card key={index} />
-            ))}
-          </div>
-          <div className="flex items-center justify-center">
-            <button
-              type="button"
-              className="rounded-md bg-[#00a4ff] px-10 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-[#00a4ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a4ff]"
-            >
-              Explore More
-            </button>
-          </div>
         </div>
       </div>
     </div>
