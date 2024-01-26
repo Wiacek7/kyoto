@@ -9,9 +9,9 @@ const Quests = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="opacity-50">Quests</h1>
+        <h1 className="opacity-50">Projects</h1>
         <p className="opacity-35 text-sm">
-          Search your favourite category , follow the interesting quests
+          Admin can find projects here to add to QF Rounds.
         </p>
       </div>
       <div className="space-y-4">
