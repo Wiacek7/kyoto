@@ -103,21 +103,7 @@ const Quests = () => {
               
             </span>
           </div>
-        </div>
-        <div className="space-y-4">
-          <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-x-3 gap-y-2">
-            {Array.from({ length: 12 }).map((_, index) => (
-              <Card key={index} />
-            ))}
-          </div>
-          <div className="flex items-center justify-center">
-            <button
-              type="button"
-              className="rounded-md bg-[#00a4ff] px-10 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-[#00a4ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a4ff]"
-            >
-              Explore More
-            </button>
-          </div>
+        
           
 <form className="max-w-md mx-auto">
   <div className="relative z-0 w-full mb-5 group">
