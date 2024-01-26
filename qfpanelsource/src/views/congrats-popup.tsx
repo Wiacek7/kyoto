@@ -48,11 +48,9 @@ const CongratsPopup = ({
                     </Dialog.Title>
                     <div className="mt-2">
                       <p className="text-slate-950">
-                        You have received 7,000 POINTS
+                        You have disbursed $50,000 Matching funds.
                       </p>
                       <p className="text-sm text-slate-600">
-                        Thank you for being a part of PointsHive. Improve your
-                        scrore to earn more rewards.
                       </p>
                     </div>
                   </div>
@@ -63,7 +61,7 @@ const CongratsPopup = ({
                     className="inline-flex w-auto justify-center rounded-lg bg-[#FFA409] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#FFA409] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFA409]"
                     onClick={() => setOpen(false)}
                   >
-                    Back to Quests
+                    Back to Projects
                   </button>
                 </div>
               </Dialog.Panel>
