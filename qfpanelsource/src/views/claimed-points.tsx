@@ -38,11 +38,11 @@ const ClaimedPoints = () => {
         </div>
         <h3 className="hidden sm:block text-md">
           Total Claimed Points:{" "}
-          <span className="text-[#FFA409] font-semibold">$900.00</span> USDT{" "}
+          <span className="text-[##00a4ff] font-semibold">$900.00</span> USDT{" "}
         </h3>
         <h3 className="sm:hidden  text-sm">
           Points Claimed:{" "}
-          <span className="text-[#FFA409] font-semibold">$900.00</span> USDT{" "}
+          <span className="text-[##00a4ff] font-semibold">$900.00</span> USDT{" "}
         </h3>
       </div>
       <div className="flex items-center gap-2">

@@ -90,7 +90,7 @@ const QuestDetails = () => {
             <button
               onClick={() => setOpen(true)}
               type="button"
-              className="rounded-full px-4 sm:px-8 bg-[#FFA409] py-1 sm:py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#FFA409]/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFA409]"
+              className="rounded-full px-4 sm:px-8 bg-[##00a4ff] py-1 sm:py-3 text-sm font-semibold text-white shadow-sm hover:bg-[##00a4ff]/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[##00a4ff]"
             >
               CLAIM
             </button>

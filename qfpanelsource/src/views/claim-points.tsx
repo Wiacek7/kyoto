@@ -11,8 +11,8 @@ export const data = {
     {
       label: "",
       data: [70, 30],
-      backgroundColor: ["#FFA409", "#D8D8FF"],
-      borderColor: ["#FFA409", "#D8D8FF"],
+      backgroundColor: ["##00a4ff", "#D8D8FF"],
+      borderColor: ["##00a4ff", "#D8D8FF"],
       borderWidth: 1,
     },
   ],
@@ -55,7 +55,7 @@ const ClaimPoints = () => {
             fill="none"
           >
             <path
-              fill="#FFA409"
+              fill="##00a4ff"
               d="M50.455 25.18c0-.12 0-.24-.02-.36C50.035 11.06 38.895 0 25.235 0S.435 11.06.035 24.82c-.02.14-.02.26-.02.38a1.34 1.34 0 0 0 0 .4c.06 1.16.58 2.26 1.56 3.18l18.38 15.3h-3.14a1.43 1.43 0 0 0-1.42 1.44v7.28a1.425 1.425 0 0 0 1.42 1.42h16.16a1.425 1.425 0 0 0 1.42-1.42v-7.28a1.431 1.431 0 0 0-1.42-1.44h-3.06l19.04-15.38c.9-.84 1.44-1.94 1.5-3.1.02-.06.02-.1.02-.16 0-.08 0-.16-.02-.26ZM25.235 5c7.92 0 14.78 4.64 18.1 11.4-.946-.29-1.93-.438-2.92-.44-2.48 0-4.78.94-6.58 2.6a10.356 10.356 0 0 0-8.6-4.6c-3.58 0-6.76 1.86-8.64 4.66a9.343 9.343 0 0 0-6.56-2.66c-1 0-1.98.16-2.9.44C10.455 9.64 17.315 5 25.235 5Zm-20.2 20.16c.48-2.42 2.56-4.2 5-4.2 3.4 0 4.76 3.52 5.1 4.6l4.2 11.5-14.3-11.9Zm19.94 12.74-5.08-13.88s-.02-.06-.04-.1c.28-2.78 2.58-4.96 5.38-4.96s4.96 2.06 5.34 4.74l-5.6 14.2Zm5.72-.86 4.74-12.06c.04-.14.12-.3.2-.5.58-1.24 2-3.52 4.78-3.52 2.44 0 4.54 1.78 5 4.18l-14.72 11.9Z"
             />
           </svg>
@@ -148,7 +148,7 @@ const ClaimPoints = () => {
               <button
                   onClick={() => setOpen(true)}
                   type="button"
-                  className="rounded-xl bg-[#FFA409] w-full px-10 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FFA409] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFA409]"
+                  className="rounded-xl bg-[##00a4ff] w-full px-10 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[##00a4ff] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[##00a4ff]"
                 >
                   Disburse Payment
                 </button>
